@@ -1,0 +1,28 @@
+# R / RStudio
+.Rhistory
+.RData
+.RDataTmp
+.Rproj.user/
+*.Rhistory
+# Python
+__pycache__/
+*.pyc
+# EnergyPlus run folders and large outputs (archive compressed copies only)
+calibration/trackA/runs/*/eplusout.csv
+calibration/trackA/runs/*/eplusout.eso
+calibration/trackA/runs/*/eplusout.mtr
+calibration/trackA/runs/*/eplusmtr.csv
+calibration/trackA/runs/*.idf
+fbo/runs/
+fbo/F2/fig/
+calibration/trackA/runs/deviation_figs/
+calibration/trackB/runs/*.png
+calibration/trackB/runs/*.pdf
+fort.6
+# Weather files: IWEC is not redistributed (README, Section 3)
+*.epw
+!calibration/trackA/weather/epw_build_report.json
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
