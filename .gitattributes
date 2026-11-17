@@ -1,0 +1,2 @@
+# Store every file byte-for-byte (keeps MANIFEST.sha256 valid after clone on any OS)
+* -text
