@@ -25,7 +25,7 @@ COL_NSGA <- "#1C7293"   # teal   (NSGA-II)
 GREYL    <- "#9AA7AB"
 
 # --- i18n: language of the FIGURE TEXT --------------------------------------
-#   "en" -> paper (Building and Environment) ;  "es" -> team presentation.
+#   "en" -> paper ;  "es" -> team presentation.
 #   Change LANG here, or pass it as an argument: make_figs(lang = "es").
 LANG <- "en"
 .LABS <- list(

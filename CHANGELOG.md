@@ -1,6 +1,6 @@
 # Changelog
 
-## [1.0.0] – 2026-11-17 — release accompanying the Building and Environment submission
+## [1.0.0] – 2026-11-17 — release accompanying the article submission
 
 First public release. The files are the authors' production scripts and logs,
 with the changes below. None of them alters a reported number:

@@ -34,7 +34,7 @@ keywords:
   - classrooms
   - NSGA-II
 preferred-citation:
-  type: article
+  type: unpublished
   title: "Balancing indoor air quality, thermal comfort and energy in naturally ventilated classrooms: A Fuzzy–Bayesian Optimization approach"
   authors:
     - family-names: "Sánchez Cordero"
@@ -43,9 +43,8 @@ preferred-citation:
       given-names: "Sergio"
     - family-names: "Andújar Márquez"
       given-names: "José Manuel"
-  journal: "Building and Environment"
   year: 2026
-  notes: "Submitted"
+  notes: "Manuscript submitted for publication"
 references:
   - type: article
     title: "Validation of Dynamic Natural Ventilation Protocols for Optimal Indoor Air Quality and Thermal Adaptive Comfort during the Winter Season in Subtropical-Climate School Buildings"

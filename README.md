@@ -2,7 +2,7 @@
 
 Code, input data and evaluation logs for:
 
-> Sánchez Cordero, A., Gómez Melgar, S., & Andújar Márquez, J. M. (2026). *Balancing indoor air quality, thermal comfort and energy in naturally ventilated classrooms: A Fuzzy–Bayesian Optimization approach*. Submitted to *Building and Environment*.
+> Sánchez Cordero, A., Gómez Melgar, S., & Andújar Márquez, J. M. (2026). *Balancing indoor air quality, thermal comfort and energy in naturally ventilated classrooms: A Fuzzy–Bayesian Optimization approach*. Manuscript submitted for publication.
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
 
