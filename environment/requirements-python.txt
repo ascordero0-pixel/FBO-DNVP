@@ -1,0 +1,8 @@
+# Track A EnergyPlus driver (calibration_engine.py, via reticulate)
+eppy==0.5.69
+# Measured-EPW builder (calibration/trackA/weather/build_measured_epw.py);
+# versions with which the byte-identical rebuild was verified
+pvlib==0.15.1
+pandas==3.0.2
+numpy==2.4.4
+openpyxl

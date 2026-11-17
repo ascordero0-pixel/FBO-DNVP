@@ -1,0 +1,64 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite the article and the archived version below."
+title: "FBO-DNVP: Fuzzy–Bayesian Optimization of dynamic natural ventilation protocols"
+abstract: >-
+  R code, EnergyPlus models, monitoring data and evaluation logs of a
+  Fuzzy–Bayesian Optimization (FBO) framework that tunes the five setpoints of a
+  dynamic natural ventilation protocol for a case-study classroom in Seville
+  (Spain). Includes the two-track model calibration (thermal and CO2), the
+  hierarchical Mamdani scoring system, the Gaussian-process Bayesian optimizer
+  and the NSGA-II and fixed-threshold benchmarks.
+type: software
+authors:
+  - family-names: "Sánchez Cordero"
+    given-names: "Antonio"
+    email: "antonio.sanchez443@alu.uhu.es"
+    affiliation: "Universidad de Huelva, Programa de Ciencia y Tecnología Industrial y Ambiental"
+  - family-names: "Gómez Melgar"
+    given-names: "Sergio"
+    affiliation: "Universidad de Huelva, CITES"
+  - family-names: "Andújar Márquez"
+    given-names: "José Manuel"
+    affiliation: "Universidad de Huelva, CITES"
+version: "1.0.0"
+date-released: "2026-11-17"
+license: MIT
+repository-code: "https://github.com/ascordero0-pixel/FBO-DNVP"
+keywords:
+  - natural ventilation
+  - Bayesian optimization
+  - fuzzy inference system
+  - indoor air quality
+  - thermal comfort
+  - EnergyPlus
+  - classrooms
+  - NSGA-II
+preferred-citation:
+  type: article
+  title: "Balancing indoor air quality, thermal comfort and energy in naturally ventilated classrooms: A Fuzzy–Bayesian Optimization approach"
+  authors:
+    - family-names: "Sánchez Cordero"
+      given-names: "Antonio"
+    - family-names: "Gómez Melgar"
+      given-names: "Sergio"
+    - family-names: "Andújar Márquez"
+      given-names: "José Manuel"
+  journal: "Building and Environment"
+  year: 2026
+  notes: "Submitted"
+references:
+  - type: article
+    title: "Validation of Dynamic Natural Ventilation Protocols for Optimal Indoor Air Quality and Thermal Adaptive Comfort during the Winter Season in Subtropical-Climate School Buildings"
+    authors:
+      - family-names: "Sánchez Cordero"
+        given-names: "Antonio"
+      - family-names: "Gómez Melgar"
+        given-names: "Sergio"
+      - family-names: "Andújar Márquez"
+        given-names: "José Manuel"
+    journal: "Applied Sciences"
+    volume: 14
+    issue: "11"
+    start: "4651"
+    year: 2024
+    doi: "10.3390/app14114651"
