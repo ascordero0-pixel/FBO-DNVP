@@ -1,0 +1,19 @@
+{
+  "upload_type": "software",
+  "title": "FBO-DNVP: Fuzzy–Bayesian Optimization of dynamic natural ventilation protocols",
+  "version": "1.0.0",
+  "language": "eng",
+  "license": "mit",
+  "access_right": "open",
+  "creators": [
+    {"name": "Sánchez Cordero, Antonio", "affiliation": "Universidad de Huelva"},
+    {"name": "Gómez Melgar, Sergio", "affiliation": "Universidad de Huelva, CITES"},
+    {"name": "Andújar Márquez, José Manuel", "affiliation": "Universidad de Huelva, CITES"}
+  ],
+  "description": "<p>R code, EnergyPlus models, monitoring data and evaluation logs supporting the article <em>Balancing indoor air quality, thermal comfort and energy in naturally ventilated classrooms: A Fuzzy–Bayesian Optimization approach</em> (manuscript submitted for publication).</p><p>Contents: two-track calibration of a classroom EnergyPlus model (thermal, Track A; CO<sub>2</sub> mass balance, Track B); hierarchical Mamdani scoring of five annual indicators (CO<sub>2</sub> excess, adaptive comfort shortfall, overcooling, control effort, outdoor-pollutant import); Gaussian-process Bayesian optimization of five DNVP setpoints over nine orientation–aperture scenarios; NSGA-II and fixed-threshold benchmarks. <code>verify_without_energyplus.R</code> reproduces every stage that does not require EnergyPlus.</p><p>Licences: code MIT; data, models and logs CC BY 4.0 (see LICENSE-DATA.md). The ASHRAE IWEC weather file is not redistributed.</p>",
+  "keywords": ["natural ventilation", "Bayesian optimization", "fuzzy inference system", "indoor air quality", "thermal comfort", "EnergyPlus", "classrooms", "NSGA-II", "dynamic natural ventilation protocol"],
+  "related_identifiers": [
+    {"identifier": "10.3390/app14114651", "relation": "references", "resource_type": "publication-article"}
+  ],
+  "notes": "Software environment: R, EnergyPlus 9.4.0 (DesignBuilder 7.3.1.003), Python 3.13 + eppy 0.5.69."
+}
