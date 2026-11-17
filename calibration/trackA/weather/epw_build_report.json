@@ -1,0 +1,41 @@
+{
+  "site": {
+    "latitude": 37.42,
+    "longitude": -5.9,
+    "tz_utc_offset": 1.0,
+    "elev_building_m": 12.0,
+    "elev_station_m": 18.0,
+    "year": 2021
+  },
+  "splice": {
+    "rows_replaced": 1211,
+    "rows_missing_in_measured": 13,
+    "window": {
+      "start": [
+        11,
+        1
+      ],
+      "end": [
+        12,
+        21
+      ]
+    },
+    "year": 2021
+  },
+  "transformations": {
+    "dry_bulb": "col J, 5-min mean → hourly, direct",
+    "rel_hum": "col K, dropouts→interp, clip[1,100], hourly mean",
+    "wind_dir": "col L, vector (u,v) hourly mean to avoid wrap",
+    "wind_speed": "col M, hourly mean",
+    "pressure": "col Q (MSL hPa) → zeros interpolated → ×factor(z=18.0 m)→station → ×100 → Pa",
+    "dew_point": "derived from T,RH via Magnus (WMO a=17.62,b=243.12)",
+    "solar": "col O (GHI, ÷10-corrected) → Erbs decomposition (pvlib) → DNI+DHI; REQUIRED for EnergyPlus solar gains",
+    "hour_convention": "EPW hour h = interval ending h:00 (right edge)"
+  },
+  "policy": "All EPW fields measured or derived by named transforms; none invented.",
+  "tools": {
+    "pvlib": "0.15.1",
+    "pandas": "3.0.2",
+    "numpy": "2.4.4"
+  }
+}

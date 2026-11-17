@@ -1,0 +1,4 @@
+"Day","Regime","MSE_ppm2","RMSE_ppm","bias_SB_pct","var_SDSD_pct","phase_LCS_pct","r"
+"26","DNVP moderate",45136,212,0.3,3.4,96.3,0.645
+"17","SNVP moderate",27927,167,18.9,0.3,80.9,-0.148
+"18","DNVP storm",109120,330,47.9,18.3,33.7,0.157

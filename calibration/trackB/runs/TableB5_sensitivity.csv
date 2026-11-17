@@ -1,0 +1,10 @@
+"Scenario","g_person_Lh","dev_from_prior_pct"
+"Headline: train Nov18+26, Cd=0.65, wind x0.521, cap20",14.74,10.8
+"Fold: train Nov26 only",12.76,-4.1
+"Fold: train all 3 days",14.73,10.8
+"Cd = 0.60 (vs 0.65)",14.08,5.9
+"Cd = 0.70 (vs 0.65)",15.38,15.6
+"Wind factor x0.75 (0.391)",13.14,-1.2
+"Wind factor x1.25 (0.652)",16.12,21.2
+"Winsor cap = 18 m/s",14.76,11
+"Winsor cap = 25 m/s",14.73,10.7

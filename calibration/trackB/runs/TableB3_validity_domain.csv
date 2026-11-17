@@ -1,0 +1,4 @@
+"Day","Regime","mean_u10","n","NMBE_pct","CVRMSE_pct","R2"
+"26","DNVP moderate",3.7,58,-1.5,26.68,0.415
+"17","SNVP moderate",6.5,58,-11.46,26.39,0.022
+"18","DNVP storm",12.4,60,-29.17,42.14,0.025
