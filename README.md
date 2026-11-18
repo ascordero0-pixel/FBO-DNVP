@@ -4,7 +4,7 @@ Code, input data and evaluation logs for:
 
 > Sánchez Cordero, A., Gómez Melgar, S., & Andújar Márquez, J. M. (2026). *Balancing indoor air quality, thermal comfort and energy in naturally ventilated classrooms: A Fuzzy–Bayesian Optimization approach*. Manuscript submitted for publication.
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24333386.svg)](https://doi.org/10.5281/zenodo.24333386)
 
 The framework tunes the five setpoints of a dynamic natural ventilation protocol (DNVP) for a case-study classroom in Seville (Spain). A calibrated EnergyPlus model evaluates each candidate over a school year. A hierarchical Mamdani fuzzy inference system (FIS) aggregates five annual indicators (g₁–g₅) into a utility *U* ∈ [0, 1]. A Gaussian-process Bayesian optimizer maximizes *U*. NSGA-II and two fixed-threshold DNVP serve as benchmarks.
 
@@ -151,7 +151,7 @@ Code (`*.R`, `*.py`): MIT (`LICENSE`). Data, models and logs: CC BY 4.0 (`LICENS
 
 Cite the article and the archived software version (see `CITATION.cff`, or the "Cite this repository" button on GitHub):
 
-> Sánchez Cordero, A., Gómez Melgar, S., & Andújar Márquez, J. M. (2026). *FBO-DNVP: Fuzzy–Bayesian Optimization of dynamic natural ventilation protocols* (Version 1.0.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.XXXXXXX
+> Sánchez Cordero, A., Gómez Melgar, S., & Andújar Márquez, J. M. (2026). *FBO-DNVP: Fuzzy–Bayesian Optimization of dynamic natural ventilation protocols* (Version 1.0.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.24333387
 
 ## 10. Contact
 
