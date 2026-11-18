@@ -21,7 +21,15 @@ authors:
     given-names: "José Manuel"
     affiliation: "Universidad de Huelva, CITES"
 version: "1.0.0"
-date-released: "2026-11-17"
+doi: "10.5281/zenodo.24333387"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24333387"
+    description: "Version 1.0.0 (Zenodo)"
+  - type: doi
+    value: "10.5281/zenodo.24333386"
+    description: "All versions (Zenodo concept DOI)"
+date-released: "2026-11-18"
 license: MIT
 repository-code: "https://github.com/ascordero0-pixel/FBO-DNVP"
 keywords:
