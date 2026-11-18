@@ -7,7 +7,7 @@ are licensed under the **Creative Commons Attribution 4.0 International
 licence (CC BY 4.0)**: <https://creativecommons.org/licenses/by/4.0/>.
 
 Attribution: Sánchez Cordero, A., Gómez Melgar, S., & Andújar Márquez, J. M.
-(2026). FBO-DNVP (Version 1.0.0). Zenodo. https://doi.org/10.5281/zenodo.XXXXXXX
+(2026). FBO-DNVP (Version 1.0.0). Zenodo. https://doi.org/10.5281/zenodo.24333387
 
 ## Third-party data
 
